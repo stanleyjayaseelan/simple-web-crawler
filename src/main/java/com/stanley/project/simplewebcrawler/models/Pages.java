@@ -7,7 +7,7 @@ import lombok.Data;
 @Data
 public class Pages {
 
-	private String pageName;
-	private List<Pages> childPages;
+	private String pageURL;
+	private List<String> childPages;
 
 }
